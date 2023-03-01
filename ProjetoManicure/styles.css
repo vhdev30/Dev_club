@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satisfy', serif;
+
+}
+
+.img1 {
+    padding-top: 0;
+
+    margin-left: 30%;
+}
+
+.img2 {
+    margin-top: 0;
+    margin-left: 0;
+    display: inline;
+}
+
+footer {
+    margin-left: 40%;
+    margin-top: 30px;
+}
+
+.img3 {
+
+    width: 50px;
+    height: 40px;
+
+
+}
+
+p {
+    font-size: 35px;
+    text-align: auto;
+}
+
+section {
+    float: right;
+    margin-top: 10%;
+    font-size: 30px;
+    display: inline;
+
+    margin-right: 20%;
+
+}
