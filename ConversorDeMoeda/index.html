@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Conversor de Moedas Online</title>
+</head>
+
+<body>
+    <div class="conteiner">
+        <header>
+            <h1>Conversor de Moedas</h1>
+        </header>
+         <main>
+                <label>
+                    converter <b>de</b>
+                    <select>
+                        <option>
+                            R$ Real brasileiro
+
+                        </option>
+
+                    </select>
+                </label>
+                <label>
+                    converter <b>para</b>
+                    <select id="troca_opcao">
+                        <option>
+                            US$ Dólar americano
+
+                        </option>
+                        <option>
+                            € Euro
+
+                        </option>
+                        <option>
+                            ₿ Bitcoin
+
+                        </option>
+
+                    </select>
+                </label>
+                <label>
+                    Valor
+                    <input id="pegaReal" placeholder="R$10.000,00">
+                </label>
+                <button id="botClick"type="button"> converter </button>
+                <section>
+                    <div class="one">
+                        <img src="brasil 2.png" alt="bandeira_do_Brasil">
+                        <p class="moeda">Real</p>
+                        <p class="valor" id="valorReal1"> 10.000,00</p>
+                    </div>
+                    <img class="seta" src="setaMenor.png" alt="seta">
+                    <div class="one">
+                        <img id="trocaBandeira"src="estados-unidos (1) 1.png" alt="bandeira_americana">
+                        <p class="moeda"id="trocaEscrita">Dólar americano</p>
+                        <p class="valor"id="valorTroca"> 10.000,00</p>
+                    </div>
+
+                </section>
+            </main>
+        
+    </div>
+</body>
+<script src="./script.js"> </script>
+
+</html>
